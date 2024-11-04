@@ -3,52 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Live Cricket Stream</title>
+    <title>Live Channel</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
+            align-items: center;
             height: 100vh;
-            background-color: #f3f3f3;
+            margin: 0;
+            background-color: #f0f0f0;
         }
-
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        .iframe-container {
-            width: 100%;
-            max-width: 800px;
-            height: 500px;
-            overflow: hidden;
-            border: 2px solid #333;
+        .live-channel {
+            border: 2px solid #ccc;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
         }
     </style>
 </head>
 <body>
-    <h1>Live Cricket Streaming</h1>
-    <div class="iframe-container">
-        <iframe 
-            src="//stream.crichd.sc/update/willowcricket.php" 
-            width="100%" 
-            height="100%" 
-            marginheight="0" 
-            marginwidth="0" 
-            scrolling="no" 
-            frameborder="0" 
-            allowfullscreen 
-            allow="encrypted-media">
-        </iframe>
+
+    <div class="live-channel">
+        <iframe src="willow.htm" height="500" width="870" scrolling="no" border="0" frameborder="0" allowfullscreen=""></iframe>
     </div>
-    <p style="margin-top: 20px; color: #666;">Enjoy live cricket streaming!</p>
+
 </body>
 </html>
